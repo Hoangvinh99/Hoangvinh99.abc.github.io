@@ -1,0 +1,146 @@
+*{padding: 0;margin: 0}
+
+.banner button.btn.btn-primary {
+}
+
+.back {
+    margin-bottom: 20px;
+}
+
+.show_result_TT.col-md-12 {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 2px #ff000063;
+}
+.show_result_TT.col-md-12,
+.show_result_lichday,
+.show_result_tt.col-md-9{
+    box-shadow: 0 3px 3px 2px #ff000063;
+}
+body {
+    background: #ebebeb;
+}
+
+button#search {}
+
+button#ld,button#search {
+    background: transparent;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    outline:none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.show{
+    display: block !important;
+}
+.hidden{
+    display: none !important;
+
+}
+.box .row {
+    position: relative;
+}
+
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+thead.thead-dark {
+    background: red;
+    color: white;
+}
+
+.show_result_lichday,.show_result_tt.col-md-9 {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 20px;
+    border: none;
+}
+
+.show_result_lichday,.show_result_tt h3 {
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.show_result_lichday.col-md-9 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    margin: 0;
+    background: #fff;
+}
+.show_result_TT.col-md-9 {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    margin: 0;
+    background: #fff;
+}
+
+li.list-group-item {
+    font-size: 17px;
+    cursor: pointer;
+    position: relative;
+}
+
+li.list-group-item:hover {
+    background: #19e467b0;
+}
+
+
+.navigation h2 {
+    background: red;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.navigation.col-md-3 ul li a {
+    margin: auto;
+    padding: 20px;
+}
+
+.navigation.col-md-3 ul {}
+
+.box {
+    margin: 30px;
+}
+
+.banner {
+    background: cornflowerblue;
+    box-shadow: -2px 0px 7px 0px;
+}
+
+.logo.col-md-2 {
+    margin: 10px 0;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center;
+}
+
+.logout img {
+    width: 39px;
+    height: 39px;
+}
+
+.col-md-10.logout {
+    text-align: right;
+    margin: 10px 0;
+}
+
+.col-md-10.logout span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1;
+    margin-right: 10px;
+}
