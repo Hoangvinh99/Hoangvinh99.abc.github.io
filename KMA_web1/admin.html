@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title>Admin</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<!-- <script type="text/javascript" src="1.js"></script> -->
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="css/showTeacher.css">
+</head>
+<body>
+	<div class="hv_admin">
+		<div class="container-fluid">
+			<div class="row">
+				
+				<div class="col-md-3 hv_menu_admin">
+					<div class="hv_box_avt">
+						<figure>
+							<img src="images/user1.png" alt="" class="img-fluid">
+						</figure>
+						<h1 name = "IdAdmin" class="IDAdmin">User ADMIN</h1>
+						<div class="hv_gr_func">
+							<ul>
+								<li><button type="submit" id="AddUser">ADD User</button></li>
+								<li><button type="submit" id="AddClass">Add Class</button></li>
+								<li><button type="submit" id="AddStudent">Add Student</button></li>
+							</ul>
+						</div>
+						<div class="hv_btn_comback">
+							<a href=""><i class="fa fa-angle-double-left"></i> Back</a>
+						</div>
+					</div>
+				</div>
+				<div class="hv_display_table col-md-9 addUser show">
+					<div class="hv_form_fil">
+						<form>
+							<div class="form-group row">
+								<label for="inputEmail3" class="col-sm-2 form-control-label">Level</label>
+								<div class="hv_sel col-md-4">
+									<select name="role" class="chon" >
+											<option value="student">Beginer</option>
+											<option value="teacher">Master</option>
+											<option value="parent">Pro</option>
+									</select>
+								</div>
+								    
+							   
+							</div>
+							<div class="form-group row">
+								<label for="inputPassword3" class="col-sm-2 form-control-label">ClassID</label>
+								<div class="col-sm-4">
+									<input type="password" class="form-control" id="inputPassword3" placeholder="ID">
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-secondary btnAdd">Add</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="show_result_TT  ">
+						
+							<table class="table">
+							  <thead class="thead-dark">
+							    <tr>
+							      <th scope="col">STT</th>
+							      <th scope="col">Tên Lớp</th>
+							      <th scope="col">Số Buổi Nghỉ</th>
+							      <th scope="col">Lịch Học</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">1</th>
+							      <td name="number_child">TOIEIC 1.1</td>
+							      <td name="name_class_studied">3</td>
+							      <td name="nam_class_studing"> thứ 2, thứ 4, thứ 6</td>
+							    </tr>
+							    <tr>
+								      <th scope="row">2</th>
+								      <td>BASIC1</td>
+								      <td>0</td>
+								      <td>thứ 2, thứ 4, thứ 6</td>
+							    </tr>
+							    <tr>
+								      	<th scope="row">3</th>
+								      	<td>BASIC1</td>
+								      	<td>0</td>
+							      	    <td>thứ 2, thứ 4, thứ 6</td>
+							   
+							    	</tr>
+							  	</tbody>
+							</table>
+					</div>
+				</div>
+				<div class="hv_display_table col-md-9 addClass hidden">
+					<div class="hv_form_fil">
+						<form>
+							<div class="form-group row">
+								<label for="inputEmail3" class="col-sm-2 form-control-label">ID</label>
+								<div class="hv_sel col-md-4">
+									<select name="role" class="chon" >
+											<option value="student">Beginer</option>
+											<option value="teacher">Master</option>
+											<option value="parent">Pro</option>
+									</select>
+								</div>
+								    
+							   
+							</div>
+							<div class="form-group row">
+								<label for="inputPassword3" class="col-sm-2 form-control-label">ClassID</label>
+								<div class="col-sm-4">
+									<input type="password" class="form-control" id="inputPassword3" placeholder="ID">
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-secondary btnAdd">Add</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="show_result_TT  ">
+						
+							<table class="table">
+							  <thead class="thead-dark">
+							    <tr>
+							      <th scope="col">STT</th>
+							      <th scope="col">Tên Lớp</th>
+							      <th scope="col">Số Buổi Nghỉ</th>
+							      <th scope="col">Lịch Học</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">1</th>
+							      <td name="number_child">TOIEIC 1.1</td>
+							      <td name="name_class_studied">3</td>
+							      <td name="nam_class_studing"> thứ 2, thứ 4, thứ 6</td>
+							    </tr>
+							    <tr>
+								      <th scope="row">2</th>
+								      <td>BASIC1</td>
+								      <td>0</td>
+								      <td>thứ 2, thứ 4, thứ 6</td>
+							    </tr>
+							    <tr>
+								      	<th scope="row">3</th>
+								      	<td>BASIC1</td>
+								      	<td>0</td>
+							      	    <td>thứ 2, thứ 4, thứ 6</td>
+							   
+							    	</tr>
+							  	</tbody>
+							</table>
+					</div>
+				</div>
+				<div class="hv_display_table col-md-9 addStudent hidden">
+					<div class="hv_form_fil">
+						<form>
+							<div class="form-group row">
+								<label for="inputEmail3" class="col-sm-2 form-control-label">Name Class</label>
+								<div class="hv_sel col-md-4">
+									<select name="role" class="chon" >
+											<option value="student">Beginer</option>
+											<option value="teacher">Master</option>
+											<option value="parent">Pro</option>
+									</select>
+								</div>
+								    
+							   
+							</div>
+							<div class="form-group row">
+								<label for="inputPassword3" class="col-sm-2 form-control-label">ClassID</label>
+								<div class="col-sm-4">
+									<input type="password" class="form-control" id="inputPassword3" placeholder="ID">
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-secondary btnAdd">Add</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="show_result_TT  ">
+						
+							<table class="table">
+							  <thead class="thead-dark">
+							    <tr>
+							      <th scope="col">STT</th>
+							      <th scope="col">Tên Lớp</th>
+							      <th scope="col">Số Buổi Nghỉ</th>
+							      <th scope="col">Lịch Học</th>
+							    </tr>
+							  </thead>
+							  <tbody>
+							    <tr>
+							      <th scope="row">1</th>
+							      <td name="number_child">TOIEIC 1.1</td>
+							      <td name="name_class_studied">3</td>
+							      <td name="nam_class_studing"> thứ 2, thứ 4, thứ 6</td>
+							    </tr>
+							    <tr>
+								      <th scope="row">2</th>
+								      <td>BASIC1</td>
+								      <td>0</td>
+								      <td>thứ 2, thứ 4, thứ 6</td>
+							    </tr>
+							    <tr>
+								      	<th scope="row">3</th>
+								      	<td>BASIC1</td>
+								      	<td>0</td>
+							      	    <td>thứ 2, thứ 4, thứ 6</td>
+							   
+							    	</tr>
+							  	</tbody>
+							</table>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function (){
+		    
+		 $("#AddUser").click(function (){
+		        $(".addUser").addClass("show");
+		        $(".addUser").removeClass("hidden");
+		        $(".addClass").addClass("hidden");
+		        $(".addClass").removeClass("show");
+		        $(".addStudent").addClass("hidden");
+		        $(".addStudent").removeClass("show");
+		    });
+		   
+		    
+		 $("#AddClass").click(function (){
+		        $(".addClass").addClass("show");
+		        $(".addClass").removeClass("hidden");
+		        $(".addUser").addClass("hidden");
+		        $(".addUser").removeClass("show");
+		        $(".addStudent").addClass("hidden");
+		        $(".addStudent").removeClass("show");
+		    });
+		   
+		    
+		 $("#AddStudent").click(function (){
+		        $(".addStudent").addClass("show");
+		        $(".addStudent").removeClass("hidden");
+		        $(".addClass").addClass("hidden");
+		        $(".addClass").removeClass("show");
+		        $(".addUser").addClass("hidden");
+		        $(".addUser").removeClass("show");
+		    });
+		   
+		}); 
+	</script>
+</body>
+</html>
